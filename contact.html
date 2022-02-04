@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Nav Start -->
+    <nav>
+        <div class="left-side">
+            <a href="index.html">
+                <img src="assets/logo.png" />
+            </a>
+
+            <ul>
+                <li>
+                    <a href="" target="blank">Home</a>
+                </li>
+                <li>
+                    <a href="" target="blank">Blog</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+    <!-- Nav End -->
+    <center>
+        <header>
+            <h1>GET IN TOUCH</h1>
+        </header>
+        <div class="contact-form">
+            <div class="container-form">
+                <form action="">
+                    <div>
+                        <label for="input-name">Name</label>
+                        <input type="text" id="input-name" placeholder="Input Your Name" />
+                    </div>
+
+                    <div>
+                        <label for="input-email">Email</label>
+                        <input type="email" id="input-email" placeholder="Input Your Email" />
+                    </div>
+
+                    <div>
+                        <label for="input-phone">Phone Number</label>
+                        <input type="text" placeholder="Input Your Phone Number" id="input-phone" />
+                    </div>
+
+                    <div>
+                        <label for="input-subject">Subject</label>
+                        <select id="input-subject">
+                            <option value="">Choose</option>
+                            <option value="lets talk">Let's Talk</option>
+                            <option value="lets collaboration">Let's Collaboration</option>
+                            <option value="i am hiring">I am Hiring</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="input-message">Your Message</label>
+                        <textarea id="input-message" placeholder="Input Your Message"></textarea>
+                    </div>
+
+                    <button type="button" onclick="showData()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </center>
+
+    <script src="form.js"></script>
+</body>
+
+</html>
